@@ -1,4 +1,4 @@
-# 💳 CreditWise Loan System
+#  CreditWise Loan System
 
 ### Machine Learning-Based Loan Approval Prediction
 
@@ -8,13 +8,13 @@ The project follows a complete ML workflow — from **data preprocessing and exp
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Loan approval is an important decision for financial institutions because approving high-risk applicants can result in financial losses, while rejecting reliable applicants can result in lost business opportunities.
 
 The goal of this project is to build a machine learning model capable of learning patterns from historical loan application data and predicting the `Loan_Approved` outcome.
 
-### 🎯 Objective
+###  Objective
 
 Build a classification model that can:
 
@@ -26,7 +26,7 @@ Build a classification model that can:
 
 ---
 
-# 🧠 Machine Learning Workflow
+#  Machine Learning Workflow
 
 The project follows this pipeline:
 
@@ -62,7 +62,7 @@ Best Model Selection
 
 ---
 
-# 📂 Dataset
+#  Dataset
 
 The project uses:
 
@@ -103,7 +103,7 @@ The notebook works with features including:
 
 ---
 
-# 🧹 1. Data Cleaning
+#  1. Data Cleaning
 
 The first step is to understand the structure and quality of the dataset.
 
@@ -139,7 +139,7 @@ This ensures that the dataset contains no missing values before model training.
 
 ---
 
-# 📊 2. Exploratory Data Analysis
+#  2. Exploratory Data Analysis
 
 EDA is performed to understand the dataset and identify relationships between applicant characteristics and loan approval.
 
@@ -172,7 +172,7 @@ One important analysis focuses on the relationship between **Credit Score** and 
 
 ---
 
-# 🔤 3. Categorical Encoding
+#  3. Categorical Encoding
 
 Machine learning algorithms require numerical input, so categorical variables are converted into numerical representations.
 
@@ -223,7 +223,7 @@ Using `drop="first"` helps avoid redundant dummy variables.
 
 ---
 
-# 🔥 4. Correlation Analysis
+#  4. Correlation Analysis
 
 A correlation matrix is generated to understand relationships between numerical variables and the target variable.
 
@@ -241,7 +241,7 @@ A heatmap is also created to visually inspect relationships between variables.
 
 ---
 
-# ✂️ 5. Train-Test Split
+#  5. Train-Test Split
 
 The dataset is divided into training and testing sets.
 
@@ -265,7 +265,7 @@ train_test_split(
 
 ---
 
-# 📏 6. Feature Scaling
+#  6. Feature Scaling
 
 The project uses **StandardScaler** to standardize numerical features.
 
@@ -280,7 +280,7 @@ The scaler is fitted only on the training data and then applied to the test data
 
 ---
 
-# 🤖 7. Machine Learning Models
+#  7. Machine Learning Models
 
 Several classification algorithms are implemented and compared.
 
@@ -334,7 +334,7 @@ This limits the maximum depth of the tree and helps control model complexity.
 
 ---
 
-# 🌳 Decision Tree Pruning
+#  Decision Tree Pruning
 
 The notebook additionally explores **post-pruning** using Cost Complexity Pruning.
 
@@ -355,7 +355,7 @@ This provides a practical demonstration of controlling decision-tree complexity.
 
 ---
 
-# 🛠️ 8. Feature Engineering
+#  8. Feature Engineering
 
 Additional features are created to capture nonlinear relationships.
 
@@ -384,7 +384,7 @@ Feature engineering allows the models to work with transformed representations o
 
 ---
 
-# 📈 9. Model Evaluation
+#  9. Model Evaluation
 
 The project evaluates classification models using:
 
@@ -437,7 +437,7 @@ False Negative
 
 ---
 
-# 🏆 Reported Model Performance
+#  Reported Model Performance
 
 The notebook reports the following results for its selected Decision Tree model:
 
@@ -467,13 +467,13 @@ Actual Positive     5      56
 
 ---
 
-# 📌 Why These Metrics Matter
+#  Why These Metrics Matter
 
 For a loan approval system, accuracy alone does not provide the complete picture.
 
 The notebook gives particular importance to:
 
-### 1️⃣ Precision
+### 1️ Precision
 
 The project focuses on reducing **False Positives**, where an application is predicted as approved incorrectly.
 
@@ -483,7 +483,7 @@ Reported precision:
 82.35%
 ```
 
-### 2️⃣ Recall
+### 2️ Recall
 
 The project also considers **False Negatives**, where an application that belongs to the positive class is incorrectly rejected.
 
@@ -493,7 +493,7 @@ Reported recall:
 91.80%
 ```
 
-### 3️⃣ F1 Score
+### 3️ F1 Score
 
 F1 Score provides a balance between precision and recall.
 
@@ -505,7 +505,7 @@ Reported F1 Score:
 
 ---
 
-# 🧰 Technologies & Libraries
+#  Technologies & Libraries
 
 The project is implemented using **Python**.
 
@@ -549,26 +549,26 @@ The project is implemented using **Python**.
 
 ---
 
-# 📁 Project Structure
+#  Project Structure
 
 A recommended GitHub structure for this project is:
 
 ```text
 CreditWise-Loan-System/
 │
-├── 📓 CreditWise Loan System_code.ipynb
+├──  CreditWise Loan System_code.ipynb
 │
-├── 📊 loan_approval_data_minor_project_1.csv
+├──  loan_approval_data_minor_project_1.csv
 │
-├── 📄 README.md
+├──  README.md
 │
-└── 📁 images/
+└──  images/
     └── project_visualizations/
 ```
 
 ---
 
-# 🚀 How to Run the Project
+#  How to Run the Project
 
 ## 1. Clone the Repository
 
@@ -612,7 +612,7 @@ is available in the expected working directory.
 
 ---
 
-# 🔍 Key Concepts Demonstrated
+#  Key Concepts Demonstrated
 
 This project demonstrates practical understanding of:
 
@@ -643,17 +643,17 @@ This project demonstrates practical understanding of:
 
 ---
 
-# 💡 Project Highlights
+#  Project Highlights
 
-### 🔹 Complete ML Pipeline
+###  Complete ML Pipeline
 
 The project covers the complete journey from raw data to model evaluation.
 
-### 🔹 Multiple Models
+###  Multiple Models
 
 Rather than relying on a single algorithm, multiple classification techniques are explored and compared.
 
-### 🔹 Feature Engineering
+###  Feature Engineering
 
 The project creates transformed features such as:
 
@@ -664,17 +664,17 @@ Credit_Score_sq
 
 to capture additional relationships.
 
-### 🔹 Decision Tree Optimization
+###  Decision Tree Optimization
 
 Both pre-pruning and cost-complexity post-pruning concepts are explored.
 
-### 🔹 Business-Oriented Evaluation
+###  Business-Oriented Evaluation
 
 The project does not rely solely on accuracy and considers the consequences of **False Positives and False Negatives** in loan decisions.
 
 ---
 
-# ⚠️ Important Note
+#  Important Note
 
 This project is an **educational machine learning implementation** based on the dataset and workflow contained in the notebook. The reported metrics are specific to the dataset, preprocessing pipeline, train-test split, and implementation used in the notebook.
 
@@ -682,7 +682,7 @@ The model should not be treated as a production-ready financial decision system 
 
 ---
 
-# 🔮 Future Improvements
+#  Future Improvements
 
 Potential extensions to make CreditWise more production-oriented include:
 
@@ -703,7 +703,7 @@ Potential extensions to make CreditWise more production-oriented include:
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 **Hemank Sharma**
 
@@ -712,6 +712,6 @@ Specialization: Artificial Intelligence & Machine Learning
 
 ---
 
-# ⭐ If You Find This Project Useful
+#  If You Find This Project Useful
 
-If you found this project helpful for learning Machine Learning, consider giving the repository a ⭐ on GitHub.
+If you found this project helpful for learning Machine Learning, consider giving the repository a on GitHub.
